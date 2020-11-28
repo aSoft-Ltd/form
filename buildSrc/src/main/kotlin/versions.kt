@@ -1,10 +1,17 @@
 object vers {
     object asoft {
+        val form = "0.0.1"
         val theme = "0.0.3"
+        val files = "0.0.1"
+        val reakt = "0.0.1"
+        val kotlinx_extensions = "0.0.1"
     }
+
+    val ktor = "1.4.2"
 
     object kotlinx {
         val coroutines = "1.4.1"
+        val html = "0.7.2"
     }
 
     object wrappers {

@@ -17,6 +17,6 @@ pluginManagement {
 
 rootProject.name = "form"
 
-//include(":form-html")
+include(":form-html")
 include(":form-http")
-//include(":form-react")
+include(":form-react")
