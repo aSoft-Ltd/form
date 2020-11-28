@@ -37,6 +37,6 @@ kotlin {
 }
 
 aSoftLibrary(
-    version = vers.asoft.reakt,
+    version = vers.asoft.form,
     description = "Form tools to work with http forms"
 )

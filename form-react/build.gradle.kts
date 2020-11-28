@@ -12,6 +12,6 @@ dependencies {
 }
 
 aSoftLibrary(
-    version = vers.asoft.reakt,
-    description = "Form tools to work with Form in react"
+    version = vers.asoft.form,
+    description = "Form tools to work with Forms in react"
 )
