@@ -10,5 +10,5 @@ class HTMLFormBuilder {
         return this
     }
 
-    fun executeSubmit(form: HTMLFormElement) = submitHandler?.invoke(form)
+    internal fun executeSubmit(form: HTMLFormElement) = submitHandler?.invoke(form)
 }
