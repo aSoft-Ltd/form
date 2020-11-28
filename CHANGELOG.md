@@ -3,7 +3,7 @@
 - Published to maven central
 
 ## Build Src
-- Updated to gradle version 6.7
+- Updated to gradle version 6.7.1
 
 ## New Features
 - Added Colors and ColorSpaces
