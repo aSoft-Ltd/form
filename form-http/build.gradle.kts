@@ -7,7 +7,7 @@ plugins {
 }
 
 kotlin {
-    universalLib()
+    multiplatformLib(forAndroid = true)
     sourceSets {
         val commonMain by getting {
             dependencies {
@@ -36,7 +36,7 @@ kotlin {
     }
 }
 
-aSoftLibrary(
+aSoftOSSLibrary(
     version = vers.asoft.form,
     description = "Form tools to work with http forms"
 )
