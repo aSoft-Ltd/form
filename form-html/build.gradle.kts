@@ -5,12 +5,19 @@ plugins {
     signing
 }
 
-dependencies {
-    api("org.jetbrains.kotlinx:kotlinx-html:${vers.kotlinx.html}")
-    api("tz.co.asoft:kotlinx-extensions:${vers.asoft.kotlinx_extensions}")
+kotlin {
+    js(IR) { library() }
+    sourceSets {
+        val main by getting {
+            dependencies {
+                api("org.jetbrains.kotlinx:kotlinx-html:${vers.kotlinx.html}")
+                api("tz.co.asoft:kotlinx-extensions:${vers.asoft.kotlinx_extensions}")
+            }
+        }
+    }
 }
 
-aSoftLibrary(
+aSoftOSSLibrary(
     version = vers.asoft.form,
     description = "Form tools to work with Form in kotlin/js client html dsl"
 )
